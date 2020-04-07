@@ -1,0 +1,31 @@
+$red = #ed1c24
+$green = #009900
+$gray = #999
+$yellow = #fbb03b
+$blue = #2196f3
+$bgColorRed = rgba(237, 28, 36, 0.7)
+$bgColorGreen = rgba(0, 153, 0, 0.7)
+$bgColorGray = rgba(153, 153, 153, 0.7)
+$bgColorYellow = rgba(251, 176, 59, 0.7)
+$bgColorBlue = rgba(33, 150, 243, 0.7)
+colorBtn($color, $bgColor)
+	background $color
+	color #fff
+	&:focus
+		background $color
+		color #fff
+	&:hover
+		background $bgColor
+		color #fff
+		&:before, &:after
+			background $bgColor
+.blue_btn
+	colorBtn($blue, $bgColorBlue)
+.red_btn
+	colorBtn($red, $bgColorRed)
+.yellow_btn
+	colorBtn($yellow, $bgColorYellow)
+.green_btn
+	colorBtn($green, $bgColorGreen)
+.gray_btn
+	colorBtn($gray, $bgColorGray)

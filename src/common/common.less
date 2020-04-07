@@ -1,0 +1,89 @@
+.bm-card {
+	box-sizing: border-box;
+	padding: 0 20px 20px 20px;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.bm-margin-top {
+	margin-top: 20px;
+}
+.bm-float-left {
+	float: left;
+}
+.bm-float-right {
+	float: right;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: '';
+}
+.clearfix:after {
+	clear: both;
+}
+.bm-title {
+	/* 标题 */
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+.bm-query-condition {
+	/* 查询条件 */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	.item {
+		margin-right: 100px;
+		margin-bottom: 20px;
+		.label {
+			text-align: right;
+			display: inline-block;
+			width: 110px;
+			padding-right: 5px;
+			color: #333;
+			font-size: 12px;
+		}
+		.input {
+			width: 200px;
+		}
+	}
+	.item:last-child{
+		margin-right: 0px;
+	}
+}
+.danger-form {
+	margin: 40px auto 0;
+	width: 860px;
+	display: flex;
+	flex-wrap: wrap;
+	.el-form-item__label {
+		text-align: right;
+		vertical-align: middle;
+		float: left;
+		font-size: 12px;
+		color: #606266;
+		line-height: 28px;
+		padding: 0 12px 0 0;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.input-width {
+		width: 250px;
+		margin-left: 6px;
+	}
+	.input-width2 {
+		width: 150px;
+		margin-left: 6px;
+	}
+	.margin-right {
+		margin-right: 40px;
+	}
+	.step-submit{
+		width: 100px;
+		margin-right: 130px;
+	}
+}
