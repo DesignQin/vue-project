@@ -1,4 +1,4 @@
-# risk-project
+# vue-project
 
 > A Vue.js project
 
